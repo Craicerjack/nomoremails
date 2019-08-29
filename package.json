@@ -1,0 +1,19 @@
+{
+  "name": "nomoremails",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "pyser 3000"
+  },
+  "keywords": [],
+  "author": "Carlos Tighe",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "muuri": "^0.8.0"
+  }
+}

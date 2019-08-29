@@ -1,0 +1,47 @@
+Arguments: 
+  /home/carlos/.nvm/versions/node/v12.6.0/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/carlos/.nvm/versions/node/v12.6.0/bin:/home/carlos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/carlos/sites/sidepros/nomoremail/gmailApi/package.json: Unexpected token } in JSON at position 138
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "nomoremails",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "pyser 3000",
+    },
+    "keywords": [],
+    "author": "Carlos Tighe",
+    "license": "ISC",
+    "devDependencies": {
+    },
+    "dependencies": {
+      "materialize-css": "^1.0.0-rc.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

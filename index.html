@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nomoremail gmail access</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+  </head>
+  <body>
+    <main role="main">
+      
+       
+
+        <div id="login" style="display: none;">
+          <div class="container">
+            <h1 class="center-align">no<span class="fire">more</span>mails</h1> 
+            <div class="row">
+              <div class="center-align">
+                <img src="./img/logo.svg" class="logo">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s2 offset-s5 center-align">
+                  <!--Add buttons to initiate auth sequence and sign out-->
+                  <a id="authorize_button" class="waves-effect waves-light btn fire" >
+                    <i class="left"><img src="./img/google.svg"></i>
+                    Authorize
+                  </a>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+
+        <div id="logout" style="display: none;">
+          <div class="row">
+            <div class="col s1">
+              <a id="signout_button" class="waves-effect waves-light btn fire"><img src="./img/logo.svg" class="logout left">Logout</a>
+              <pre id="content" style="white-space: pre-wrap;"></pre>
+            </div>
+            <div class="col s11">
+              
+            </div> 
+          </div>
+        </div>
+
+    </main>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/getEmails.js"></script>
+    <script type="text/javascript" src="js/gmaillogin.js"></script>
+
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>

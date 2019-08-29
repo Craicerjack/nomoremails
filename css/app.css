@@ -1,0 +1,25 @@
+.fire {
+  /* color: red; */
+  background: -webkit-linear-gradient(#fbdb65, #ff9600, #f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  max-height: 400px;
+}
+
+.logoutlogo {
+  max-height: 50px;
+}
+
+#authorize_button, #signout_button {
+	width: 100%;
+  margin-top: 5px;
+}
+
+
+img.logout {
+  width: 32px;
+  height:  32px;
+}
